@@ -10,6 +10,7 @@ printf("\nEnter the password:");
 for(int i=0;i<size;i++){
     scanf("%c",&arr[i]);
 }
+srand(time(NULL));
 printf("\nEncrypted password:");
 for(int i=0;i<size;i++){
 printf("%c",arr[i]-rand());
